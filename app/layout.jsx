@@ -4,7 +4,7 @@ import '../styles/globals.css';
 export const metadata = {
     title: {
         template: '%s | Netlify',
-        default: 'Netlify Starter'
+        default: 'Fernando Bertolo - Product Designer'
     }
 };
 
@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <head>
-                <link rel="icon" href="/favicon.svg" sizes="any" />
+                <link rel="icon" href="/me.png" sizes="any" />
             </head>
             <body className="antialiased text-white bg-zinc-950">
                 <div className="flex flex-col min-h-screen px-6 bg-noise sm:px-12">
