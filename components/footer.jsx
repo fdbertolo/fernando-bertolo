@@ -1,16 +1,29 @@
 import Link from 'next/link';
+import Image from 'next/image';
+import behanceLogo from 'public/images/behance-logo.svg';
+import githubLogo from 'public/images/github-mark-white.svg';
+import linkedInLogo from 'public/images/linkedin-logo.svg';
 
 export function Footer() {
     return (
         <footer className="pt-16 pb-12 sm:pt-24 sm:pb-16">
-            <p className="text-sm">
-                <Link
-                    href="https://docs.netlify.com/frameworks/next-js/overview/"
-                    className="decoration-dashed text-primary underline-offset-8"
-                >
-                    Next.js on Netlify
-                </Link>
-            </p>
+            <ul className="flex gap-x-2 flex-1 justify-end">
+                <li>
+                    <Link href="https://github.com/fdbertolo" target="_blank" rel="noopener noreferrer">
+                        <Image src={githubLogo} alt="GitHub logo" className="w-7" />
+                    </Link>
+                </li>
+                <li>
+                    <Link href="https://behance.net/ferbertolo" target="_blank" rel="noopener noreferrer">
+                        <Image src={behanceLogo} alt="GitHub logo" className="w-7" />
+                    </Link>
+                </li>
+                <li>
+                    <Link href="https://linkedin.com/in/fernandobertolo" target="_blank" rel="noopener noreferrer">
+                        <Image src={linkedInLogo} alt="GitHub logo" className="w-7" />
+                    </Link>
+                </li>
+            </ul>
         </footer>
     );
 }
