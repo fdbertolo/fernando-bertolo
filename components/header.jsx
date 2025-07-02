@@ -1,9 +1,12 @@
+'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
 import behanceLogo from 'public/images/behance-logo.svg';
 import githubLogo from 'public/images/github-mark-white.svg';
 import linkedInLogo from 'public/images/linkedin-logo.svg';
 import myPhoto from 'public/me.png';
+import { usePathname } from 'next/navigation';
 
 const navItems = [
     { linkText: 'Home', href: '/' },
@@ -13,6 +16,7 @@ const navItems = [
 ];
 
 export function Header() {
+    const pathName = usePathname();
     return (
         <nav className="flex flex-wrap items-center gap-2 pt-6 pb-12 sm:pt-12 md:pb-24">
             <picture href="/" className="flex flex-1 gap-2 items-center">
@@ -23,9 +27,15 @@ export function Header() {
                 <ul className="flex gap-x-3 gap-y-1 flex-1">
                     {navItems.map((item, index) => (
                         <li key={index}>
-                            <Link href={item.href} className="underline-offset-6 inline-flex px-1.5 py-1 sm:px-3 sm:py-2">
-                                {item.linkText}
-                            </Link>
+                            {item.href === pathName ? (
+                                <Link href={item.href} className="underline-offset-6 inline-flex px-1.5 py-1 sm:px-3 sm:py-2">
+                                    {item.linkText}
+                                </Link>
+                            ) : (
+                                <Link href={item.href} className="no-underline inline-flex px-1.5 py-1 sm:px-3 sm:py-2">
+                                    {item.linkText}
+                                </Link>
+                            )}
                         </li>
                     ))}
                 </ul>
