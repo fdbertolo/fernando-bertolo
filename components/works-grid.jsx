@@ -19,7 +19,9 @@ export function WorksGrid() {
                 <div className="flex flex-col justify-start items-start h-fit relative gap-2 p-6 rounded-3xl bg-neutral-50/10 border border-neutral-50/40 self-center w-full">
                     <h3 className="flex w-full">Brand & Web design</h3>
                     <p className="flex w-full">
-                        Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.
+                        Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as
+                        flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it
+                        develops inherent fabrics with fiber-level treatments, exceeding market standards.
                     </p>
                     <div className="flex gap-3">
                         <span className="flex justify-center py-2 px-4 rounded-full bg-neutral-50/10 border border-neutral-50/40">
@@ -50,7 +52,9 @@ export function WorksGrid() {
                 <div className="flex flex-col justify-start items-start h-fit relative gap-2 p-6 rounded-3xl bg-neutral-50/10 border border-neutral-50/40 self-center w-full">
                     <h3 className="flex w-full">Brand & Web design</h3>
                     <p className="flex w-full">
-                        Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.
+                        Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as
+                        flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it
+                        develops inherent fabrics with fiber-level treatments, exceeding market standards.
                     </p>
                     <div className="flex gap-3">
                         <span className="flex justify-center py-2 px-4 rounded-full bg-neutral-50/10 border border-neutral-50/40">
@@ -81,7 +85,9 @@ export function WorksGrid() {
                 <div className="flex flex-col justify-start items-start h-fit relative gap-2 p-6 rounded-3xl bg-neutral-50/10 border border-neutral-50/40 self-center w-full">
                     <h3 className="flex w-full">Brand & Web design</h3>
                     <p className="flex w-full">
-                        Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.
+                        Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as
+                        flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it
+                        develops inherent fabrics with fiber-level treatments, exceeding market standards.
                     </p>
                     <div className="flex gap-3">
                         <span className="flex justify-center py-2 px-4 rounded-full bg-neutral-50/10 border border-neutral-50/40">
