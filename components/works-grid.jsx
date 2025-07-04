@@ -3,8 +3,8 @@ import Image from 'next/image';
 export function WorksGrid() {
     return (
         <section className="flex items-center justify-center flex-col">
-            <article className="flex justify-center gap-4 w-full">
-                <picture className="flex w-full py-25">
+            <article className="flex justify-center gap-x-4 w-full md:flex-row flex-col mb-24 md:mb-0">
+                <picture className="flex w-full md:py-25 py-6">
                     <Image
                         src="/images/work1.png"
                         style={{ objectFit: 'contain' }}
@@ -13,7 +13,7 @@ export function WorksGrid() {
                         height={600}
                     />
                 </picture>
-                <div className="border-r-2 border-zinc-400 relative">
+                <div className="border-r-2 border-zinc-400 relative md:block hidden">
                     <div className="w-4 h-4 bg-zinc-400 rounded-full absolute inset-0 m-auto ml-[-0.45rem]"></div>
                 </div>
                 <div className="flex flex-col justify-start items-start h-fit relative gap-2 p-6 rounded-3xl bg-neutral-50/10 border border-neutral-50/40 self-center w-full">
@@ -36,8 +36,8 @@ export function WorksGrid() {
                     </div>
                 </div>
             </article>
-            <article className="flex justify-center gap-4 w-full">
-                <picture className="flex w-full py-25">
+            <article className="flex justify-center gap-x-4 w-full md:flex-row flex-col mb-24 md:mb-0">
+                <picture className="flex w-full md:py-25 py-6">
                     <Image
                         src="/images/work1.png"
                         style={{ objectFit: 'contain' }}
@@ -46,7 +46,7 @@ export function WorksGrid() {
                         height={600}
                     />
                 </picture>
-                <div className="border-r-2 border-zinc-400 relative">
+                <div className="border-r-2 border-zinc-400 relative md:block hidden">
                     <div className="w-4 h-4 bg-zinc-400 rounded-full absolute inset-0 m-auto ml-[-0.45rem]"></div>
                 </div>
                 <div className="flex flex-col justify-start items-start h-fit relative gap-2 p-6 rounded-3xl bg-neutral-50/10 border border-neutral-50/40 self-center w-full">
@@ -69,8 +69,8 @@ export function WorksGrid() {
                     </div>
                 </div>
             </article>
-            <article className="flex justify-center gap-4 w-full">
-                <picture className="flex w-full py-25">
+            <article className="flex justify-center gap-x-4 w-full md:flex-row flex-col mb-8">
+                <picture className="flex w-full md:py-25 py-6">
                     <Image
                         src="/images/work1.png"
                         style={{ objectFit: 'contain' }}
@@ -79,7 +79,7 @@ export function WorksGrid() {
                         height={600}
                     />
                 </picture>
-                <div className="border-r-2 border-zinc-400 relative">
+                <div className="border-r-2 border-zinc-400 relative md:block hidden">
                     <div className="w-4 h-4 bg-zinc-400 rounded-full absolute inset-0 m-auto ml-[-0.45rem]"></div>
                 </div>
                 <div className="flex flex-col justify-start items-start h-fit relative gap-2 p-6 rounded-3xl bg-neutral-50/10 border border-neutral-50/40 self-center w-full">

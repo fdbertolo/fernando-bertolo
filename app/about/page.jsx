@@ -2,7 +2,7 @@ import { Markdown } from 'components/markdown';
 import { Footer } from 'components/footer';
 
 export const metadata = {
-    title: 'Classics'
+    title: 'About me'
 };
 
 const explainer = `
