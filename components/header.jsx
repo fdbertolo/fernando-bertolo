@@ -18,13 +18,13 @@ const navItems = [
 export function Header() {
     const pathName = usePathname();
     return (
-        <nav className="flex flex-wrap items-center gap-2 pt-6 pb-12 sm:pt-12 md:pb-24">
-            <picture href="/" className="flex flex-1 gap-2 items-center">
+        <nav className="flex flex-wrap items-center gap-2 pt-6 pb-12 sm:pt-12 md:pb-24 w-full">
+            <picture href="/" className="flex md:flex-1 gap-2 items-center order-1">
                 <Image src={myPhoto} width={50} height={50} alt="A circular shaped photo of me" />
                 <h4 className="font-bold">Fernando Bertolo</h4>
             </picture>
             {!!navItems?.length && (
-                <ul className="flex gap-x-3 gap-y-1 flex-1">
+                <ul className="flex gap-x-3 gap-y-1 flex-1 md:order-2 order-3 md:mt-0 mt-4">
                     {navItems.map((item, index) => (
                         <li key={index}>
                             {item.href === pathName ? (
@@ -43,20 +43,20 @@ export function Header() {
                     ))}
                 </ul>
             )}
-            <ul className="flex gap-x-2 flex-1 justify-end">
+            <ul className="flex gap-x-2 flex-1 justify-end md:order-3 order-2 min-w-max">
                 <li>
                     <Link href="https://github.com/fdbertolo" target="_blank" rel="noopener noreferrer">
-                        <Image src={githubLogo} alt="GitHub logo" className="w-7" />
+                        <Image src={githubLogo} alt="GitHub logo" className="md:w-7 w-9" />
                     </Link>
                 </li>
                 <li>
                     <Link href="https://behance.net/ferbertolo" target="_blank" rel="noopener noreferrer">
-                        <Image src={behanceLogo} alt="GitHub logo" className="w-7" />
+                        <Image src={behanceLogo} alt="GitHub logo" className="md:w-7 w-9" />
                     </Link>
                 </li>
                 <li>
                     <Link href="https://linkedin.com/in/fernandobertolo" target="_blank" rel="noopener noreferrer">
-                        <Image src={linkedInLogo} alt="GitHub logo" className="w-7" />
+                        <Image src={linkedInLogo} alt="GitHub logo" className="md:w-7 w-9" />
                     </Link>
                 </li>
             </ul>

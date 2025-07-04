@@ -4,7 +4,7 @@ import { workItems } from './work-list';
 import { Footer } from 'components/footer';
 
 export const metadata = {
-    title: 'Classics'
+    title: 'My works'
 };
 
 const explainer = `
