@@ -52,7 +52,9 @@ const ChromaGrid = ({ items, className = '', radius = 300, damping = 0.45, fadeO
     };
 
     const handleCardClick = (url) => {
-        if (url) window.open(url, '_blank', 'noopener,noreferrer');
+        if (url) {
+            window.location.href = `${window.location.origin}${url}`;
+        }
     };
 
     const handleCardMove = (e) => {
