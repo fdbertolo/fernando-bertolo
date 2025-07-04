@@ -1,8 +1,13 @@
+'use client';
+
 import Image from 'next/image';
+import AnimatedCursor from './animated-cursor';
+import { useRef } from 'react';
 
 export function HeroSection() {
+    const sectionRef = useRef(null);
     return (
-        <section className="flex items-center justify-center h-[600px] flex-col relative">
+        <section ref={sectionRef} className="flex items-center justify-center h-[600px] flex-col relative">
             <h1 className="select-none mb-4 text-[14vw] xl:text-[10vw] text-center leading-[0.85] text-shadow-sm text-shadow-zinc-600 hover:text-shadow-lg transition-all ease-in-out hover:transition-all hover:ease-in-out">
                 Product <br /> Designer
             </h1>
@@ -10,14 +15,7 @@ export function HeroSection() {
                 I design products that people love to use.
             </h2>
             <picture className="flex">
-                <Image
-                    src="/images/polygon.png"
-                    style={{ objectFit: 'contain' }}
-                    alt="Big and rounded mouse cursor"
-                    width={200}
-                    height={200}
-                    className="absolute right-10"
-                />
+                <AnimatedCursor cursorImage="/images/polygon.png" containerRef={sectionRef} />
             </picture>
         </section>
     );
