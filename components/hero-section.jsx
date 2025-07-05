@@ -8,6 +8,21 @@ export function HeroSection() {
     const sectionRef = useRef(null);
     const [scrollY, setScrollY] = useState(0);
 
+    // <-- INICIO: Cambio mínimo para detectar si es móvil -->
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+        const checkIsMobile = () => {
+            setIsMobile(window.innerWidth < 768); // 768px es el breakpoint 'md' de Tailwind
+        };
+
+        checkIsMobile(); // Comprobar al cargar
+        window.addEventListener('resize', checkIsMobile); // Comprobar si cambia el tamaño
+
+        return () => window.removeEventListener('resize', checkIsMobile);
+    }, []);
+    // <-- FIN: Cambio mínimo -->
+
     const bubble1Ref = useRef(null);
     const bubble2Ref = useRef(null);
     const bubble3Ref = useRef(null);
@@ -29,7 +44,10 @@ export function HeroSection() {
     };
 
     return (
-        <section ref={sectionRef} className="flex items-center justify-center h-[400px] md:h-[600px] flex-col relative overflow-visible"> {/* Añadí overflow-hidden de nuevo por si se mueven mucho */}
+        <section
+            ref={sectionRef}
+            className="flex items-center justify-center h-[400px] md:h-[600px] flex-col relative overflow-visible"
+        >
             <h1 className="z-2 select-none mb-4 text-[14vw] xl:text-[10vw] text-center leading-[0.85] text-shadow-sm text-shadow-zinc-600 hover:text-shadow-lg transition-all ease-in-out hover:transition-all hover:ease-in-out">
                 Product <br /> Designer
             </h1>
@@ -39,7 +57,6 @@ export function HeroSection() {
             <picture className="flex">
                 <AnimatedCursor cursorImage="/images/polygon.png" containerRef={sectionRef} />
             </picture>
-
             <Image
                 ref={bubble1Ref}
                 src="/images/bubbleayr@1.png"
@@ -48,26 +65,36 @@ export function HeroSection() {
                 alt="bubble background"
                 className="z-1 absolute inset-0 object-cover pointer-events-none overflow-visible m-auto mix-blend-color-burn rotate-[130deg]"
             />
-
-            <Image
-                ref={bubble2Ref}
-                src="/images/bubbleayr@1.png"
-                width={350}
-                height={350}
-                alt="bubble foreground 1"
-                className="z-3 absolute inset-0 object-cover pointer-events-none overflow-visible m-auto mix-blend-exclusion"
-                style={{ transform: `translate(100%, -60%) translateY(${getTranslateY(0.5)}px) rotate(130deg)` }}
-            />
-
-            <Image
-                ref={bubble3Ref}
-                src="/images/bubblevya@1.png"
-                width={300}
-                height={300}
-                alt="bubble foreground 2"
-                className="z-1 absolute inset-0 object-cover pointer-events-none overflow-visible m-auto mix-blend-exclusion"
-                style={{ transform: `translate(-120%, 70%) translateY(${getTranslateY(-0.5)}px) rotate(130deg)` }}
-            />
+            <picture className="floatAndGrow z-3 absolute inset-0 object-cover pointer-events-none overflow-visible m-auto mix-blend-exclusion">
+                <Image
+                    ref={bubble2Ref}
+                    src="/images/bubbleayr@1.png"
+                    width={isMobile ? 140 : 350}
+                    height={isMobile ? 140 : 350}
+                    alt="bubble foreground 1"
+                    className="object-cover"
+                    style={{
+                        transform: `translate(${isMobile ? '150%' : '180%'}, ${
+                            isMobile ? '40%' : '-20%'
+                        }) translateY(${getTranslateY(isMobile ? 0.3 : 0.5)}px) rotate(130deg)`
+                    }}
+                />
+            </picture>
+            <picture className="floatAndGrow z-1 absolute inset-0 pointer-events-none overflow-visible m-auto mix-blend-exclusion">
+                <Image
+                    ref={bubble3Ref}
+                    src="/images/bubblevya@1.png"
+                    width={isMobile ? 120 : 300}
+                    height={isMobile ? 120 : 300}
+                    alt="bubble foreground 2"
+                    className="object-cover"
+                    style={{
+                        transform: `translate(${isMobile ? '10%' : '10%'}, ${
+                            isMobile ? '150%' : '90%'
+                        }) translateY(${getTranslateY(isMobile ? -0.3 : -0.5)}px) rotate(130deg)`
+                    }}
+                />
+            </picture>
         </section>
     );
-}
+} 
