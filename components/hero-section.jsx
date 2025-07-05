@@ -64,18 +64,21 @@ export function HeroSection() {
                 height={800}
                 alt="bubble background"
                 className="z-1 absolute inset-0 object-cover pointer-events-none overflow-visible m-auto mix-blend-color-burn rotate-[130deg]"
+                style={{
+                        transform: `scale(${isMobile ? '1.7' : '1'}`
+                    }}
             />
             <picture className="floatAndGrow z-3 absolute inset-0 object-cover pointer-events-none overflow-visible m-auto mix-blend-exclusion">
                 <Image
                     ref={bubble2Ref}
                     src="/images/bubbleayr@1.png"
-                    width={isMobile ? 140 : 350}
-                    height={isMobile ? 140 : 350}
+                    width={isMobile ? 400 : 350}
+                    height={isMobile ? 400 : 350}
                     alt="bubble foreground 1"
                     className="object-cover"
                     style={{
-                        transform: `translate(${isMobile ? '150%' : '180%'}, ${
-                            isMobile ? '40%' : '-20%'
+                        transform: `translate(${isMobile ? '70%' : '180%'}, ${
+                            isMobile ? '-20%' : '-20%'
                         }) translateY(${getTranslateY(isMobile ? 0.3 : 0.5)}px) rotate(130deg)`
                     }}
                 />
@@ -84,13 +87,13 @@ export function HeroSection() {
                 <Image
                     ref={bubble3Ref}
                     src="/images/bubblevya@1.png"
-                    width={isMobile ? 120 : 300}
-                    height={isMobile ? 120 : 300}
+                    width={isMobile ? 400 : 300}
+                    height={isMobile ? 400 : 300}
                     alt="bubble foreground 2"
                     className="object-cover"
                     style={{
-                        transform: `translate(${isMobile ? '10%' : '10%'}, ${
-                            isMobile ? '150%' : '90%'
+                        transform: `translate(${isMobile ? '-80%' : '10%'}, ${
+                            isMobile ? '30%' : '90%'
                         }) translateY(${getTranslateY(isMobile ? -0.3 : -0.5)}px) rotate(130deg)`
                     }}
                 />
