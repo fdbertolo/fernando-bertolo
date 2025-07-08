@@ -8,7 +8,7 @@ export function AboutSection() {
         <section className="flex items-center justify-center flex-col mt-20">
             <h2 className="text-4xl font-bold">About Me</h2>
             <Markdown content={aboutMe} className="py-10 text-xl" />
-            <a href="public/fernando-bertolo-resume.pdf" download>
+            <a href="/fernando-bertolo-resume.pdf" download="fernando-bertolo-resume.pdf">
                 <Button text="Download my resume" />
             </a>
         </section>

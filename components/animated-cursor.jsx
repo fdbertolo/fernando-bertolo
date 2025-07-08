@@ -130,7 +130,7 @@ const AnimatedCursor = ({ cursorImage, containerRef }) => {
       {/* Elemento para el Destello (Flash) */}
       <div
         ref={clickEffectRef}
-        className='absolute rounded-full w-[100px] h-[100px] md:top-[-50px] md:left-[-50px] pointer-events-none top-[-5%] left-[-8%] z-[9998]'
+        className='absolute rounded-full w-[30px] h-[30px] md:w-[50px] md:h-[50px] md:top-[-40px] md:left-[-40px] pointer-events-none top-[-5%] left-[-6%] z-[8]'
         style={{
           backgroundColor: 'rgba(255, 255, 255, 0.3)',
           opacity: 0,
@@ -142,11 +142,11 @@ const AnimatedCursor = ({ cursorImage, containerRef }) => {
         ref={cursorRef}
         src={cursorImage}
         alt="Animated Cursor"
-        className='w-[100px] h-[100px] md:w-[150px] md:h-[150px] pointer-events-none'
+        className='w-[50px] h-[50px] md:w-[100px] md:h-[100px] pointer-events-none'
         style={{
           position: 'absolute', // Posicionamiento absoluto relativo al padre.
           pointerEvents: 'none', // No interfiere con los eventos del mouse.
-          zIndex: 9999, // Siempre por encima de todo.
+          zIndex: 9, // Siempre por encima de todo.
           top: 0, // Posición inicial. GSAP ajustará esto con `x` e `y`.
           left: 0, // Posición inicial.
           scale: 1, // Escala inicial normal.

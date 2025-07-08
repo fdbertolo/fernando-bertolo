@@ -1,6 +1,6 @@
 export const workItems = [
     {
-        image: 'https://placedog.net/600/600',
+        image: '/images/covers/cover-1.jpg',
         title: 'Work title',
         subtitle:
             'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
@@ -10,7 +10,7 @@ export const workItems = [
         url: '/works/template'
     },
     {
-        image: 'https://placedog.net/600/601',
+        image: '/images/covers/cover-23.png',
         title: 'Work title',
         subtitle:
             'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
@@ -20,7 +20,7 @@ export const workItems = [
         url: '/works/template'
     },
     {
-        image: 'https://placedog.net/600/602',
+        image: '/images/covers/cover-16.png',
         title: 'Work title',
         subtitle:
             'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
@@ -30,7 +30,7 @@ export const workItems = [
         url: '/works/template'
     },
     {
-        image: 'https://placedog.net/600/603',
+        image: '/images/covers/cover-20.png',
         title: 'Work title',
         subtitle:
             'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
@@ -40,7 +40,7 @@ export const workItems = [
         url: '/works/template'
     },
     {
-        image: 'https://placedog.net/600/604',
+        image: '/images/covers/cover-24.png',
         title: 'Work title',
         subtitle:
             'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
@@ -50,7 +50,7 @@ export const workItems = [
         url: '/works/template'
     },
     {
-        image: 'https://placedog.net/600/606',
+        image: '/images/covers/cover-12.png',
         title: 'Work title',
         subtitle:
             'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
@@ -60,7 +60,7 @@ export const workItems = [
         url: '/works/template'
     },
     {
-        image: 'https://placedog.net/600/607',
+        image: '/images/covers/cover-10.png',
         title: 'Work title',
         subtitle:
             'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
@@ -70,7 +70,138 @@ export const workItems = [
         url: '/works/template'
     },
     {
-        image: 'https://placedog.net/600/608',
+        image: '/images/covers/cover-6.png',
+        title: 'Work title',
+        subtitle:
+            'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
+        handle: ['Main skill', 'Main skill', 'Main skill'],
+        borderColor: '#4F46E5',
+        gradient: 'linear-gradient(180deg, #4F46E5, #000)',
+        url: '/works/template'
+    },
+    {
+        image: '/images/covers/cover-22.png',
+        title: 'Work title',
+        subtitle:
+            'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
+        handle: ['Main skill', 'Main skill', 'Main skill'],
+        borderColor: '#4F46E5',
+        gradient: 'linear-gradient(180deg, #4F46E5, #000)',
+        url: '/works/template'
+    },
+    {
+        image: '/images/covers/cover-8.png',
+        title: 'Work title',
+        subtitle:
+            'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
+        handle: ['Main skill', 'Main skill', 'Main skill'],
+        borderColor: '#4F46E5',
+        gradient: 'linear-gradient(180deg, #4F46E5, #000)',
+        url: '/works/template'
+    },
+    {
+        image: '/images/covers/cover-3.jpg',
+        title: 'Work title',
+        subtitle:
+            'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
+        handle: ['Main skill', 'Main skill', 'Main skill'],
+        borderColor: '#4F46E5',
+        gradient: 'linear-gradient(180deg, #4F46E5, #000)',
+        url: '/works/template'
+    },
+    {
+        image: '/images/covers/cover-14.png',
+        title: 'Work title',
+        subtitle:
+            'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
+        handle: ['Main skill', 'Main skill', 'Main skill'],
+        borderColor: '#4F46E5',
+        gradient: 'linear-gradient(180deg, #4F46E5, #000)',
+        url: '/works/template'
+    }
+    ,
+    {
+        image: '/images/covers/cover-9.jpg',
+        title: 'Work title',
+        subtitle:
+            'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
+        handle: ['Main skill', 'Main skill', 'Main skill'],
+        borderColor: '#4F46E5',
+        gradient: 'linear-gradient(180deg, #4F46E5, #000)',
+        url: '/works/template'
+    },
+    {
+        image: '/images/covers/cover-7.jpg',
+        title: 'Work title',
+        subtitle:
+            'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
+        handle: ['Main skill', 'Main skill', 'Main skill'],
+        borderColor: '#4F46E5',
+        gradient: 'linear-gradient(180deg, #4F46E5, #000)',
+        url: '/works/template'
+    },
+    {
+        image: '/images/covers/cover-18.png',
+        title: 'Work title',
+        subtitle:
+            'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
+        handle: ['Main skill', 'Main skill', 'Main skill'],
+        borderColor: '#4F46E5',
+        gradient: 'linear-gradient(180deg, #4F46E5, #000)',
+        url: '/works/template'
+    },
+    {
+        image: '/images/covers/cover-2.png',
+        title: 'Work title',
+        subtitle:
+            'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
+        handle: ['Main skill', 'Main skill', 'Main skill'],
+        borderColor: '#4F46E5',
+        gradient: 'linear-gradient(180deg, #4F46E5, #000)',
+        url: '/works/template'
+    },
+    {
+        image: '/images/covers/cover-17.jpg',
+        title: 'Work title',
+        subtitle:
+            'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
+        handle: ['Main skill', 'Main skill', 'Main skill'],
+        borderColor: '#4F46E5',
+        gradient: 'linear-gradient(180deg, #4F46E5, #000)',
+        url: '/works/template'
+    },
+    {
+        image: '/images/covers/cover-19.jpg',
+        title: 'Work title',
+        subtitle:
+            'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
+        handle: ['Main skill', 'Main skill', 'Main skill'],
+        borderColor: '#4F46E5',
+        gradient: 'linear-gradient(180deg, #4F46E5, #000)',
+        url: '/works/template'
+    },
+    {
+        image: '/images/covers/cover-21.jpg',
+        title: 'Work title',
+        subtitle:
+            'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
+        handle: ['Main skill', 'Main skill', 'Main skill'],
+        borderColor: '#4F46E5',
+        gradient: 'linear-gradient(180deg, #4F46E5, #000)',
+        url: '/works/template'
+    },
+    {
+        image: '/images/covers/cover-11.jpg',
+        title: 'Work title',
+        subtitle:
+            'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
+        handle: ['Main skill', 'Main skill', 'Main skill'],
+        borderColor: '#4F46E5',
+        gradient: 'linear-gradient(180deg, #4F46E5, #000)',
+        url: '/works/template'
+    },
+    {
+        image: '/images/covers/cover-13.jpg',
         title: 'Work title',
         subtitle:
             'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
