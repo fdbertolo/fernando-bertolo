@@ -5,26 +5,27 @@ export function WorksGrid() {
     return (
         <section className="flex items-center justify-center flex-col">
             <div className="flex justify-center w-full flex-col items-center">
-                <div className="border-r-2 border-zinc-400 relative md:block hidden h-30" />
+                <div className="border-r-2 border-zinc-400 relative h-30" />
                 <div className="flex justify-center items-center w-full">
-                    <h2 className="text-4xl font-bold my-4">My Works</h2>
+                    <h2 className="text-4xl font-bold my-4">What I do</h2>
                 </div>
-                <div className="border-r-2 border-zinc-400 relative md:block hidden h-5" />
+                <div className="border-r-2 border-zinc-400 relative h-5" />
             </div>
-            <article className="flex justify-center gap-x-4 w-full md:flex-row flex-col mb-24 md:mb-0">
-                <picture className="flex w-full md:w-1/2 md:py-25 py-6">
+            <article className="flex justify-center gap-x-4 w-full md:flex-row flex-col mb-0 rounded-3xl bg-zinc-900/50 border border-neutral-50/40 md:border-transparent md:border-0 md:bg-transparent">
+                <picture className="flex w-full md:w-1/2 md:py-25 py-0">
                     <Image
                         src="/images/work3.png"
                         style={{ objectFit: 'contain' }}
                         alt="Big and rounded mouse cursor"
                         width={600}
                         height={600}
+                        className="p-4"
                     />
                 </picture>
                 <div className="border-r-2 border-zinc-400 relative md:block hidden w-[4px]">
                     <div className="w-4 h-4 bg-zinc-400 rounded-full absolute inset-0 m-auto ml-[-0.3rem]"></div>
                 </div>
-                <div className="flex flex-col justify-start items-start h-fit relative gap-2 p-6 rounded-3xl bg-zinc-900/50 border border-neutral-50/40 self-center w-full md:w-1/2">
+                <div className="flex flex-col justify-start items-start h-fit relative gap-2 p-6 rounded-3xl md:bg-zinc-900/50 md:border md:border-neutral-50/40 self-center w-full md:w-1/2">
                     <h3 className="flex w-full">UX/UI & Frontend development</h3>
                     <div className="flex gap-2">
                         <span className="text-[0.75rem] opacity-80 px-1 rounded-full bg-neutral-50/10 border border-neutral-50/40 w-fit">
@@ -47,20 +48,23 @@ export function WorksGrid() {
                     </a>
                 </div>
             </article>
-            <article className="flex justify-center gap-x-4 w-full md:flex-row flex-col mb-24 md:mb-0">
-                <picture className="flex w-full md:w-1/2 md:py-25 py-6">
+            <div className="border-r-2 border-zinc-400 relative h-30 md:h-5 md:hidden" />
+
+            <article className="flex justify-center gap-x-4 w-full md:flex-row flex-col mb-0 rounded-3xl bg-zinc-900/50 border border-neutral-50/40 md:border-transparent md:border-0 md:bg-transparent">
+                <picture className="flex w-full md:w-1/2 md:py-25 py-0">
                     <Image
                         src="/images/work2.png"
                         style={{ objectFit: 'contain' }}
                         alt="Big and rounded mouse cursor"
                         width={600}
                         height={600}
+                        className="p-4"
                     />
                 </picture>
                 <div className="border-r-2 border-zinc-400 relative md:block hidden w-[4px]">
                     <div className="w-4 h-4 bg-zinc-400 rounded-full absolute inset-0 m-auto ml-[-0.3rem]"></div>
                 </div>
-                <div className="flex flex-col justify-start items-start h-fit relative gap-2 p-6 rounded-3xl bg-zinc-900/50 border border-neutral-50/40 self-center w-full md:w-1/2">
+                <div className="flex flex-col justify-start items-start h-fit relative gap-2 p-6 rounded-3xl md:bg-zinc-900/50 md:border md:border-neutral-50/40 self-center w-full md:w-1/2">
                     <h3 className="flex w-full">Brand & Web design</h3>
                     <div className="flex gap-2">
                         <span className="text-[0.75rem] opacity-80 px-1 rounded-full bg-neutral-50/10 border border-neutral-50/40 w-fit">
@@ -83,20 +87,22 @@ export function WorksGrid() {
                     </a>
                 </div>
             </article>
-            <article className="flex justify-center gap-x-4 w-full md:flex-row flex-col mb-8">
-                <picture className="flex w-full md:w-1/2 md:py-25 py-6">
+            <div className="border-r-2 border-zinc-400 relative h-30 md:h-5 md:hidden" />
+            <article className="flex justify-center gap-x-4 w-full md:flex-row flex-col mb-0 rounded-3xl bg-zinc-900/50 border border-neutral-50/40 md:border-transparent md:border-0 md:bg-transparent">
+                <picture className="flex w-full md:w-1/2 md:py-25 py-0">
                     <Image
                         src="/images/work1.png"
                         style={{ objectFit: 'contain' }}
                         alt="Big and rounded mouse cursor"
                         width={600}
                         height={600}
+                        className="p-4"
                     />
                 </picture>
                 <div className="border-r-2 border-zinc-400 relative md:block hidden w-[4px]">
                     <div className="w-4 h-4 bg-zinc-400 rounded-full absolute inset-0 m-auto ml-[-0.3rem]"></div>
                 </div>
-                <div className="flex flex-col justify-start items-start h-fit relative gap-2 p-6 rounded-3xl bg-zinc-900/50 border border-neutral-50/40 self-center w-full md:w-1/2">
+                <div className="flex flex-col justify-start items-start h-fit relative gap-2 p-6 rounded-3xl md:bg-zinc-900/50 md:border md:border-neutral-50/40 self-center w-full md:w-1/2">
                     <h3 className="flex w-full">Brand & Web design</h3>
                     <div className="flex gap-2">
                         <span className="text-[0.75rem] opacity-80 px-1 rounded-full bg-neutral-50/10 border border-neutral-50/40 w-fit">
@@ -119,6 +125,7 @@ export function WorksGrid() {
                     </a>
                 </div>
             </article>
+            <div className="border-r-2 border-zinc-400 relative h-30 md:h-5" />
             <a href="/works">
                 <Button text="See all projects" />
             </a>
