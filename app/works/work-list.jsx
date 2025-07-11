@@ -4,9 +4,9 @@ export const workItems = [
         title: 'Work title',
         subtitle:
             'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
-        handle: ['Main skill', 'Main skill', 'Main skill'],
-        borderColor: '#3B82F6',
-        gradient: 'linear-gradient(145deg, #3B82F6, #000)',
+        handle: ['Figma', 'React', 'Tailwind', 'Next.js'],
+        borderColor: '#3B82F6', // Azul
+        gradient: 'linear-gradient(180deg, #3B82F6, #000)',
         url: '/works/template'
     },
     {
@@ -15,7 +15,7 @@ export const workItems = [
         subtitle:
             'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
         handle: ['Main skill', 'Main skill', 'Main skill'],
-        borderColor: '#9646e5',
+        borderColor: '#9646e5', // Púrpura
         gradient: 'linear-gradient(180deg, #9646e5, #000)',
         url: '/works/template'
     },
@@ -25,7 +25,7 @@ export const workItems = [
         subtitle:
             'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
         handle: ['Main skill', 'Main skill', 'Main skill'],
-        borderColor: '#10B981',
+        borderColor: '#10B981', // Verde
         gradient: 'linear-gradient(180deg, #10B981, #000)',
         url: '/works/template'
     },
@@ -35,8 +35,8 @@ export const workItems = [
         subtitle:
             'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
         handle: ['Main skill', 'Main skill', 'Main skill'],
-        borderColor: '#9646e5',
-        gradient: 'linear-gradient(180deg, #9646e5, #000)',
+        borderColor: '#EF4444', // Rojo
+        gradient: 'linear-gradient(180deg, #EF4444, #000)',
         url: '/works/template'
     },
     {
@@ -45,8 +45,8 @@ export const workItems = [
         subtitle:
             'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
         handle: ['Main skill', 'Main skill', 'Main skill'],
-        borderColor: '#EF4444',
-        gradient: 'linear-gradient(180deg, #EF4444, #000)',
+        borderColor: '#F59E0B', // Amarillo
+        gradient: 'linear-gradient(180deg, #F59E0B, #000)',
         url: '/works/template'
     },
     {
@@ -55,8 +55,8 @@ export const workItems = [
         subtitle:
             'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
         handle: ['Main skill', 'Main skill', 'Main skill'],
-        borderColor: '#10B981',
-        gradient: 'linear-gradient(180deg, #10B981, #000)',
+        borderColor: '#4F46E5', // Índigo
+        gradient: 'linear-gradient(180deg, #4F46E5, #000)',
         url: '/works/template'
     },
     {
@@ -65,8 +65,8 @@ export const workItems = [
         subtitle:
             'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
         handle: ['Main skill', 'Main skill', 'Main skill'],
-        borderColor: '#F59E0B',
-        gradient: 'linear-gradient(180deg, #F59E0B, #000)',
+        borderColor: '#3B82F6', // Azul (se repite la secuencia)
+        gradient: 'linear-gradient(180deg, #3B82F6, #000)',
         url: '/works/template'
     },
     {
@@ -75,8 +75,8 @@ export const workItems = [
         subtitle:
             'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
         handle: ['Main skill', 'Main skill', 'Main skill'],
-        borderColor: '#4F46E5',
-        gradient: 'linear-gradient(180deg, #4F46E5, #000)',
+        borderColor: '#9646e5', // Púrpura
+        gradient: 'linear-gradient(180deg, #9646e5, #000)',
         url: '/works/template'
     },
     {
@@ -85,8 +85,8 @@ export const workItems = [
         subtitle:
             'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
         handle: ['Main skill', 'Main skill', 'Main skill'],
-        borderColor: '#4F46E5',
-        gradient: 'linear-gradient(180deg, #4F46E5, #000)',
+        borderColor: '#10B981', // Verde
+        gradient: 'linear-gradient(180deg, #10B981, #000)',
         url: '/works/template'
     },
     {
@@ -95,8 +95,8 @@ export const workItems = [
         subtitle:
             'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
         handle: ['Main skill', 'Main skill', 'Main skill'],
-        borderColor: '#4F46E5',
-        gradient: 'linear-gradient(180deg, #4F46E5, #000)',
+        borderColor: '#EF4444', // Rojo
+        gradient: 'linear-gradient(180deg, #EF4444, #000)',
         url: '/works/template'
     },
     {
@@ -105,8 +105,8 @@ export const workItems = [
         subtitle:
             'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
         handle: ['Main skill', 'Main skill', 'Main skill'],
-        borderColor: '#4F46E5',
-        gradient: 'linear-gradient(180deg, #4F46E5, #000)',
+        borderColor: '#F59E0B', // Amarillo
+        gradient: 'linear-gradient(180deg, #F59E0B, #000)',
         url: '/works/template'
     },
     {
@@ -115,19 +115,18 @@ export const workItems = [
         subtitle:
             'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
         handle: ['Main skill', 'Main skill', 'Main skill'],
-        borderColor: '#4F46E5',
+        borderColor: '#4F46E5', // Índigo
         gradient: 'linear-gradient(180deg, #4F46E5, #000)',
         url: '/works/template'
-    }
-    ,
+    },
     {
         image: '/images/covers/cover-9.jpg',
         title: 'Work title',
         subtitle:
             'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
         handle: ['Main skill', 'Main skill', 'Main skill'],
-        borderColor: '#4F46E5',
-        gradient: 'linear-gradient(180deg, #4F46E5, #000)',
+        borderColor: '#3B82F6', // Azul
+        gradient: 'linear-gradient(180deg, #3B82F6, #000)',
         url: '/works/template'
     },
     {
@@ -136,8 +135,8 @@ export const workItems = [
         subtitle:
             'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
         handle: ['Main skill', 'Main skill', 'Main skill'],
-        borderColor: '#4F46E5',
-        gradient: 'linear-gradient(180deg, #4F46E5, #000)',
+        borderColor: '#9646e5', // Púrpura
+        gradient: 'linear-gradient(180deg, #9646e5, #000)',
         url: '/works/template'
     },
     {
@@ -146,8 +145,8 @@ export const workItems = [
         subtitle:
             'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
         handle: ['Main skill', 'Main skill', 'Main skill'],
-        borderColor: '#4F46E5',
-        gradient: 'linear-gradient(180deg, #4F46E5, #000)',
+        borderColor: '#10B981', // Verde
+        gradient: 'linear-gradient(180deg, #10B981, #000)',
         url: '/works/template'
     },
     {
@@ -156,8 +155,8 @@ export const workItems = [
         subtitle:
             'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
         handle: ['Main skill', 'Main skill', 'Main skill'],
-        borderColor: '#4F46E5',
-        gradient: 'linear-gradient(180deg, #4F46E5, #000)',
+        borderColor: '#EF4444', // Rojo
+        gradient: 'linear-gradient(180deg, #EF4444, #000)',
         url: '/works/template'
     },
     {
@@ -166,8 +165,8 @@ export const workItems = [
         subtitle:
             'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
         handle: ['Main skill', 'Main skill', 'Main skill'],
-        borderColor: '#4F46E5',
-        gradient: 'linear-gradient(180deg, #4F46E5, #000)',
+        borderColor: '#F59E0B', // Amarillo
+        gradient: 'linear-gradient(180deg, #F59E0B, #000)',
         url: '/works/template'
     },
     {
@@ -176,7 +175,7 @@ export const workItems = [
         subtitle:
             'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
         handle: ['Main skill', 'Main skill', 'Main skill'],
-        borderColor: '#4F46E5',
+        borderColor: '#4F46E5', // Índigo
         gradient: 'linear-gradient(180deg, #4F46E5, #000)',
         url: '/works/template'
     },
@@ -186,8 +185,8 @@ export const workItems = [
         subtitle:
             'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
         handle: ['Main skill', 'Main skill', 'Main skill'],
-        borderColor: '#4F46E5',
-        gradient: 'linear-gradient(180deg, #4F46E5, #000)',
+        borderColor: '#3B82F6', // Azul
+        gradient: 'linear-gradient(180deg, #3B82F6, #000)',
         url: '/works/template'
     },
     {
@@ -196,18 +195,18 @@ export const workItems = [
         subtitle:
             'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
         handle: ['Main skill', 'Main skill', 'Main skill'],
-        borderColor: '#4F46E5',
-        gradient: 'linear-gradient(180deg, #4F46E5, #000)',
+        borderColor: '#9646e5', // Púrpura
+        gradient: 'linear-gradient(180deg, #9646e5, #000)',
         url: '/works/template'
     },
     {
-        image: '/images/covers/cover-13.jpg',
+        image: '/images/covers/cover-1.jpg',
         title: 'Work title',
         subtitle:
             'Tejidos BENITEX specializes in technical fabrics for personal protection against risks such as flash fire, electric arc, and molten metal splashes. Focused on innovation and excellence, it develops inherent fabrics with fiber-level treatments, exceeding market standards.',
         handle: ['Main skill', 'Main skill', 'Main skill'],
-        borderColor: '#4F46E5',
-        gradient: 'linear-gradient(180deg, #4F46E5, #000)',
+        borderColor: '#10B981', // Verde
+        gradient: 'linear-gradient(180deg, #10B981, #000)',
         url: '/works/template'
     }
 ];
