@@ -1,6 +1,6 @@
-import { Header } from '../components/header';
-import '../styles/globals.css';
-
+import { Header } from '/components/header';
+import '/styles/globals.css';
+import { AOSInitializer } from '/components/aos-initializer';
 export const metadata = {
     title: {
         template: '%s | Netlify',
@@ -21,6 +21,7 @@ export default function RootLayout({ children }) {
                         <main className="grow flex flex-col">{children}</main>
                     </div>
                 </div>
+                <AOSInitializer />
             </body>
         </html>
     );

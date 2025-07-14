@@ -161,7 +161,7 @@ const RotatingText = forwardRef((props, ref) => {
     return (
         <motion.span
             className={cn(
-                'flex flex-wrap whitespace-pre-wrap relative p-2 rounded-lg transition-colors duration-500', // Clases base
+                'flex flex-wrap whitespace-pre-wrap relative p-2 rounded-lg transition-colors duration-500 items-center', // Clases base
                 'bg-gradient-to-br', // Dirección del gradiente
                 currentGradient, // Clases del gradiente actual
                 mainClassName

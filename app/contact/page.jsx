@@ -39,7 +39,7 @@ export default async function Page() {
                         'learn more about design?',
                         'boost your career?',
                     ]}
-                    mainClassName="px-2 sm:px-2 md:px-3 bg-cyan-300 text-white font-semibold md:text-5xl text-xl overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-lg text-shadow-lg/5"
+                    mainClassName="px-4 sm:px-2 md:px-3 bg-cyan-300 text-white font-semibold md:text-5xl text-xl overflow-hidden py-4 sm:py-1 md:py-2 justify-center rounded-lg text-shadow-lg/5"
                     staggerFrom={'last'}
                     initial={{ y: '100%' }}
                     animate={{ y: 0 }}
