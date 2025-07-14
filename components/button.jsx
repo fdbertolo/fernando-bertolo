@@ -23,7 +23,7 @@ const Button = ({ text }) => {
     return (
 
         <button
-            className={`relative inline-flex items-center justify-center p-0.5 overflow-hidden font-medium text-neutral-300 rounded-md group bg-gradient-to-br hover:text-white focus:ring-4 focus:outline-none ${randomGradient}`}
+            className={`relative inline-flex items-center justify-center p-0.5 overflow-hidden font-medium text-neutral-300 rounded-md group bg-gradient-to-br hover:text-white focus:ring-4 focus:outline-none cursor-pointer ${randomGradient}`}
         >
             <span className="relative flex items-center h-11 px-6 transition-all ease-in duration-300 bg-zinc-900 rounded-md group-hover:bg-transparent text-shadow-xs">
                 {text}

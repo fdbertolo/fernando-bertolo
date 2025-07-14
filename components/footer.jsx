@@ -8,12 +8,15 @@ import { Markdown } from './markdown';
 
 export function Footer() {
     return (
-        <footer className="pt-16 pb-12 sm:pt-24 sm:pb-16 flex align-items-center justify-between flex-col md:flex-row gap-4">
-            <a href="mailto:fdbertolo@gmail.com">
+        <footer className="pt-16 pb-12 sm:pt-24 sm:pb-16 flex align-items-center justify-between items-center gap-y-10 md:flex-row flex-wrap">
+            <a href="mailto:fdbertolo@gmail.com" className='md:order-1 order-2 w-1/2 md:w-auto'>
                 <Button text="Contact Me" />
             </a>
-            <Markdown content={' © 2025 Created with magic and love by <b> Fernando Bertolo</b>'} className="block md:flex items-center justify-center gap-1.5 flex-1" />
-            <ul className="flex gap-x-2 justify-end items-center">
+            <Markdown
+                content={'© 2025 <b> Fernando Bertolo</b> - All rights reserved'} 
+                className="md:order-2 order-1 block md:flex items-center justify-center gap-1.5 flex-1 w-full md:w-auto whitespace-nowrap text-center"
+            />
+            <ul className="flex gap-x-2 justify-end items-center order-3 w-1/2 md:w-auto">
                 <li>
                     <Link href="https://github.com/fdbertolo" target="_blank" rel="noopener noreferrer">
                         <Image src={githubLogo} alt="GitHub logo" className="w-7" />
