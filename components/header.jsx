@@ -24,7 +24,7 @@ export function Header() {
                 <h4 className="font-bold">Fernando Bertolo</h4>
             </picture>
             {!!navItems?.length && (
-                <ul className="flex gap-x-3 gap-y-1 flex-1 md:order-2 order-3 md:mt-0 mt-4 justify-center">
+                <ul className="flex gap-x-3 gap-y-1 flex-1 md:order-2 order-3 md:mt-0 mt-4 justify-center font-semibold">
                     {navItems.map((item, index) => (
                         <li key={index}>
                             {item.href === pathName ? (

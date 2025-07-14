@@ -4,14 +4,14 @@ import Button from './button';
 export function WorksGrid() {
     return (
         <section className="flex items-center justify-center flex-col">
-            <div className="flex justify-center w-full flex-col items-center">
+            <div data-aos="fade-up" data-aos-duration="500" className="flex justify-center w-full flex-col items-center">
                 <div className="border-r-2 border-zinc-400 relative h-30" />
                 <div className="flex justify-center items-center w-full">
                     <h2 className="text-4xl font-bold my-4">What I do</h2>
                 </div>
                 <div className="border-r-2 border-zinc-400 relative h-5" />
             </div>
-            <article className="flex justify-center gap-x-4 w-full md:flex-row flex-col mb-0 rounded-3xl bg-zinc-900/50 border border-neutral-50/40 md:border-transparent md:border-0 md:bg-transparent">
+            <article data-aos="fade-up" data-aos-duration="500" className="flex justify-center gap-x-4 w-full md:flex-row flex-col mb-0 rounded-3xl bg-zinc-900/50 border border-neutral-50/40 md:border-transparent md:border-0 md:bg-transparent">
                 <picture className="flex w-full md:w-1/2 md:py-25 py-0">
                     <Image
                         src="/images/work3.png"
@@ -50,7 +50,7 @@ export function WorksGrid() {
             </article>
             <div className="border-r-2 border-zinc-400 relative h-30 md:h-5 md:hidden" />
 
-            <article className="flex justify-center gap-x-4 w-full md:flex-row flex-col mb-0 rounded-3xl bg-zinc-900/50 border border-neutral-50/40 md:border-transparent md:border-0 md:bg-transparent">
+            <article data-aos="fade-up" data-aos-duration="500" className="flex justify-center gap-x-4 w-full md:flex-row flex-col mb-0 rounded-3xl bg-zinc-900/50 border border-neutral-50/40 md:border-transparent md:border-0 md:bg-transparent">
                 <picture className="flex w-full md:w-1/2 md:py-25 py-0">
                     <Image
                         src="/images/work2.png"
@@ -88,7 +88,7 @@ export function WorksGrid() {
                 </div>
             </article>
             <div className="border-r-2 border-zinc-400 relative h-30 md:h-5 md:hidden" />
-            <article className="flex justify-center gap-x-4 w-full md:flex-row flex-col mb-0 rounded-3xl bg-zinc-900/50 border border-neutral-50/40 md:border-transparent md:border-0 md:bg-transparent">
+            <article data-aos="fade-up" data-aos-duration="500" className="flex justify-center gap-x-4 w-full md:flex-row flex-col mb-0 rounded-3xl bg-zinc-900/50 border border-neutral-50/40 md:border-transparent md:border-0 md:bg-transparent">
                 <picture className="flex w-full md:w-1/2 md:py-25 py-0">
                     <Image
                         src="/images/work1.png"
@@ -125,7 +125,7 @@ export function WorksGrid() {
                     </a>
                 </div>
             </article>
-            <div className="border-r-2 border-zinc-400 relative h-30 md:h-5" />
+            <div data-aos="fade-up" data-aos-duration="500" className="border-r-2 border-zinc-400 relative h-30 md:h-5" />
             <a href="/works">
                 <Button text="See all projects" />
             </a>

@@ -25,7 +25,7 @@ const Button = ({ text }) => {
         <button
             className={`relative inline-flex items-center justify-center p-0.5 overflow-hidden font-medium text-neutral-300 rounded-md group bg-gradient-to-br hover:text-white focus:ring-4 focus:outline-none cursor-pointer ${randomGradient}`}
         >
-            <span className="relative flex items-center h-11 px-6 transition-all ease-in duration-300 bg-zinc-900 rounded-md group-hover:bg-transparent text-shadow-xs">
+            <span className="relative flex items-center h-11 px-6 transition-all ease-in duration-300 bg-zinc-900 rounded-md group-hover:bg-transparent text-shadow-xs hover:text-white">
                 {text}
                 <div className="w-0 translate-x-[100%] pl-0 opacity-0 transition-all duration-300 group-hover:w-5 group-hover:translate-x-0 group-hover:pl-1 group-hover:opacity-100">
                     <svg

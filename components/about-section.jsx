@@ -1,13 +1,13 @@
 import { Markdown } from 'components/markdown';
 import Button from 'components/button';
 
-const aboutMe = `Product Designer with over 8 years of experience creating digital solutions that bridge the gap between design and technology. I specialize in building scalable Design Systems and translating high-fidelity prototypes (Figma) into clean, efficient code using React, Angular, and React Native. Passionate about optimizing the user experience (UX) to enhance product functionality and visual appeal. I actively seek challenges that allow me to contribute value in collaborative, agile environments.`;
+const aboutMe = `I'm a <b>Product Designer</b> passionate about <b>UI design</b> and building  scalable <b>Design Systems. </b> With robust <b> HTML, CSS, and JavaScript </b> expertise, I translate <b>Figma</b> prototypes into clean <b>React or Angular</b> code. I thrive on both <b>design and frontend development</b>, optimizing UX for functional and visually appealing products.`;
 
 export function AboutSection() {
     return (
-        <section className="flex items-center justify-center flex-col mt-20">
+        <section className="flex items-center justify-center flex-col mt-20" data-aos="fade-up" data-aos-duration="1000">
             <h2 className="text-4xl font-bold">How I do it</h2>
-            <Markdown content={aboutMe} className="py-10 text-xl" />
+            <Markdown content={aboutMe} className="py-20 md:text-3xl text-lg text-center leading-[1.8]" />
             <a href="/fernando-bertolo-resume.pdf" download="fernando-bertolo-resume.pdf">
                 <Button text="Download my resume" />
             </a>
