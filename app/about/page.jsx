@@ -45,7 +45,7 @@ export default async function Page() {
                     <iframe
                         src="https://open.spotify.com/embed/playlist/0h2P5zJxWy9eCMHg9a6qeJ?utm_source=generator&theme=0"
                         width="350px"
-                        height="400px"
+                        height="200px"
                         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                         loading="lazy"
                     ></iframe>
