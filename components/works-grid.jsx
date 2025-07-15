@@ -30,19 +30,19 @@ export function WorksGrid() {
                     <div className="w-4 h-4 bg-zinc-400 rounded-full absolute inset-0 m-auto ml-[-0.3rem]"></div>
                 </div>
                 <div className="flex flex-col justify-start items-start h-fit relative gap-2 p-6 rounded-3xl md:bg-zinc-900/50 md:border md:border-neutral-50/40 self-center w-full md:w-1/2">
-                    <h3 className="flex w-full">UX/UI & Frontend development</h3>
+                    <h3 className="flex w-full">UX/UI & Frontend</h3>
                     <div className="flex gap-2">
-                        <span className="text-[0.75rem] opacity-80 px-1.5 rounded-full bg-neutral-50/10 border border-neutral-50/40 w-fit">
+                        <span className="text-[0.75rem] opacity-80 px-1 rounded-full bg-neutral-50/10 border border-neutral-50/40 w-fit">
                             UI Design
                         </span>
-                        <span className="text-[0.75rem] opacity-80 px-1.5 rounded-full bg-neutral-50/10 border border-neutral-50/40 w-fit">
+                        <span className="text-[0.75rem] opacity-80 px-1 rounded-full bg-neutral-50/10 border border-neutral-50/40 w-fit">
                             UX Design
                         </span>
-                        <span className="text-[0.75rem] opacity-80 px-1.5 rounded-full bg-neutral-50/10 border border-neutral-50/40 w-fit">
+                        <span className="text-[0.75rem] opacity-80 px-1 rounded-full bg-neutral-50/10 border border-neutral-50/40 w-fit">
                             Design System
                         </span>
-                        <span className="text-[0.75rem] opacity-80 px-1.5 rounded-full bg-neutral-50/10 border border-neutral-50/40 w-fit">
-                            Frontend Development
+                        <span className="text-[0.75rem] opacity-80 px-1 rounded-full bg-neutral-50/10 border border-neutral-50/40 w-fit">
+                            Frontend
                         </span>
                     </div>
                     <p className="flex w-full mb-2">
@@ -78,16 +78,16 @@ export function WorksGrid() {
                 <div className="flex flex-col justify-start items-start h-fit relative gap-2 p-6 rounded-3xl md:bg-zinc-900/50 md:border md:border-neutral-50/40 self-center w-full md:w-1/2">
                     <h3 className="flex w-full">Branding & E-commerce creation</h3>
                     <div className="flex gap-2">
-                        <span className="text-[0.75rem] opacity-80 px-1.5 rounded-full bg-neutral-50/10 border border-neutral-50/40 w-fit">
+                        <span className="text-[0.75rem] opacity-80 px-1 rounded-full bg-neutral-50/10 border border-neutral-50/40 w-fit">
                             Figma
                         </span>
-                        <span className="text-[0.75rem] opacity-80 px-1.5 rounded-full bg-neutral-50/10 border border-neutral-50/40 w-fit">
+                        <span className="text-[0.75rem] opacity-80 px-1 rounded-full bg-neutral-50/10 border border-neutral-50/40 w-fit">
                             UX Design
                         </span>
-                        <span className="text-[0.75rem] opacity-80 px-1.5 rounded-full bg-neutral-50/10 border border-neutral-50/40 w-fit">
+                        <span className="text-[0.75rem] opacity-80 px-1 rounded-full bg-neutral-50/10 border border-neutral-50/40 w-fit">
                             UI Design
                         </span>
-                        <span className="text-[0.75rem] opacity-80 px-1.5 rounded-full bg-neutral-50/10 border border-neutral-50/40 w-fit">
+                        <span className="text-[0.75rem] opacity-80 px-1 rounded-full bg-neutral-50/10 border border-neutral-50/40 w-fit">
                             Google Analytics
                         </span>
                     </div>
@@ -122,14 +122,14 @@ export function WorksGrid() {
                 <div className="flex flex-col justify-start items-start h-fit relative gap-2 p-6 rounded-3xl md:bg-zinc-900/50 md:border md:border-neutral-50/40 self-center w-full md:w-1/2">
                     <h3 className="flex w-full">Brand & Institutional web design</h3>
                     <div className="flex gap-2">
-                        <span className="text-[0.75rem] opacity-80 px-1.5 rounded-full bg-neutral-50/10 border border-neutral-50/40 w-fit">
+                        <span className="text-[0.75rem] opacity-80 px-1 rounded-full bg-neutral-50/10 border border-neutral-50/40 w-fit">
                             Graphic Design
                         </span>
-                        <span className="text-[0.75rem] opacity-80 px-1.5 rounded-full bg-neutral-50/10 border border-neutral-50/40 w-fit">
+                        <span className="text-[0.75rem] opacity-80 px-1 rounded-full bg-neutral-50/10 border border-neutral-50/40 w-fit">
                             UI Design
                         </span>
-                        <span className="text-[0.75rem] opacity-80 px-1.5 rounded-full bg-neutral-50/10 border border-neutral-50/40 w-fit">
-                            Frontend Development
+                        <span className="text-[0.75rem] opacity-80 px-1 rounded-full bg-neutral-50/10 border border-neutral-50/40 w-fit">
+                            Frontend
                         </span>
                     </div>
                     <p className="flex w-full mb-2">
