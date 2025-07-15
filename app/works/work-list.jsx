@@ -74,7 +74,7 @@ export const workItems = [
         title: 'Industrial Design Graphics',
         subtitle:
             'Provided graphic design for an industrial design firm. Covered signage, print materials, rebranding, and development of their institutional website, ensuring cohesive visual communication.',
-        handle: ['Graphic Design', 'Branding', 'Frontend', 'Print Design'],
+        handle: ['Graphic Design', 'Branding', 'Print Design', 'Wayfinding'],
         borderColor: '#9646e5', // Púrpura
         gradient: 'linear-gradient(180deg, #9646e5, #000)',
         url: '/works/template'
@@ -94,7 +94,7 @@ export const workItems = [
         title: 'Fire Department Emblem & Products',
         subtitle:
             'Designed a new emblem for Raízen Fire Department. Managed logo production and installation at the station, and developed protective gear with the new brand image.',
-        handle: ['Branding', 'Graphic Design', 'Illustration', 'Logo Design'],
+        handle: ['Branding', 'Graphic Design', 'Illustration'],
         borderColor: '#EF4444', // Rojo
         gradient: 'linear-gradient(180deg, #EF4444, #000)',
         url: '/works/template'
@@ -164,7 +164,7 @@ export const workItems = [
         title: 'New Brand Logo & Branding',
         subtitle:
             'Developed the logo and comprehensive branding for a new market entry. Focused on creating a strong, memorable visual identity to establish the brand presence.',
-        handle: ['Branding', 'Logo Design', 'Graphic Design'],
+        handle: ['Branding', 'Graphic Design'],
         borderColor: '#F59E0B', // Amarillo
         gradient: 'linear-gradient(180deg, #F59E0B, #000)',
         url: '/works/template'
@@ -184,7 +184,7 @@ export const workItems = [
         title: 'Digital Magazine Design',
         subtitle:
             'Designed a digital magazine for a journalism project, creating page layouts and establishing a unique visual identity. Focused on engaging readability and modern aesthetics.',
-        handle: ['Graphic Design', 'UI Design', 'UX Design', 'Print Design'],
+        handle: ['Graphic Design', 'Print Design'],
         borderColor: '#3B82F6', // Azul
         gradient: 'linear-gradient(180deg, #3B82F6, #000)',
         url: '/works/template'
@@ -194,7 +194,7 @@ export const workItems = [
         title: 'Modern Art Museum Branding',
         subtitle:
             'Developed the full visual identity for a modern art museum, including branding, signage, promotional materials, website design, and merchandising.',
-        handle: ['Branding', 'Graphic Design', 'Frontend', 'UI Design'],
+        handle: ['Branding', 'Graphic Design', 'Frontend', 'Wayfinding'],
         borderColor: '#9646e5', // Púrpura
         gradient: 'linear-gradient(180deg, #9646e5, #000)',
         url: '/works/template'
