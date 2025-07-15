@@ -3,7 +3,7 @@
 import { useRef, useEffect } from 'react';
 import { gsap } from 'gsap';
 
-const ChromaGrid = ({ items, className = '', radius = 300, damping = 0.45, fadeOut = 0.6, ease = 'power3.out' }) => {
+const ChromaGrid = ({ items, className = '', radius = 800, damping = 0.45, fadeOut = 0.6, ease = 'power3.out' }) => {
     const rootRef = useRef(null);
     const fadeRef = useRef(null);
     const setX = useRef(null);
@@ -81,7 +81,7 @@ const ChromaGrid = ({ items, className = '', radius = 300, damping = 0.45, fadeO
                     key={i}
                     onMouseMove={handleCardMove}
                     onClick={() => handleCardClick(c.url)}
-                    className="group relative flex flex-col w-full rounded-[20px] overflow-hidden border-transparent transition-colors duration-300 cursor-pointer outline-2 outline-transparent hover:outline-zinc-700"
+                    className="group h-full relative flex flex-col w-full rounded-[20px] overflow-hidden border-transparent transition-colors duration-300 cursor-pointer outline-2 outline-transparent hover:outline-zinc-700"
                     style={{
                         '--card-border': c.borderColor || 'transparent',
                         background: c.gradient,
@@ -92,7 +92,7 @@ const ChromaGrid = ({ items, className = '', radius = 300, damping = 0.45, fadeO
                         className="absolute inset-0 pointer-events-none transition-opacity duration-500 z-20 opacity-0 group-hover:opacity-100"
                         style={{
                             background:
-                                'radial-gradient(circle at var(--mouse-x) var(--mouse-y), var(--spotlight-color), transparent 70%)'
+                                'radial-gradient(circle at var(--mouse-x) var(--mouse-y), var(--spotlight-color), transparent 50%)'
                         }}
                     />
                     <div className="relative z-10 flex-1 p-[10px] box-border">

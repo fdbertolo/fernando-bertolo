@@ -5,9 +5,9 @@ const aboutMe = `I'm a <b>Product Designer</b> passionate about <b>UI design</b>
 
 export function AboutSection() {
     return (
-        <section className="flex items-center justify-center flex-col mt-20" data-aos="fade-up" data-aos-duration="1000">
+        <section className="flex items-center justify-center flex-col my-30" data-aos="fade-up" data-aos-duration="1000">
             <h2 className="text-4xl font-bold">How I do it</h2>
-            <Markdown content={aboutMe} className="py-20 md:text-3xl text-lg text-center leading-[1.8]" />
+            <Markdown content={aboutMe} className="pb-20 pt-10 md:text-3xl text-lg text-center leading-[1.8]" />
             <a href="/fernando-bertolo-resume.pdf" download="fernando-bertolo-resume.pdf">
                 <Button text="Download my resume" />
             </a>

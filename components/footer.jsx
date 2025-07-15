@@ -8,7 +8,7 @@ import { Markdown } from './markdown';
 
 export function Footer() {
     return (
-        <footer data-aos="fade-up" data-aos-duration="500" className="pt-16 pb-12 sm:pt-24 sm:pb-16 flex align-items-center justify-between items-center gap-y-10 md:flex-row flex-wrap">
+        <footer className="pt-16 pb-12 sm:pt-24 sm:pb-16 flex align-items-center justify-between items-center gap-y-10 md:flex-row flex-wrap">
             <a href="mailto:fdbertolo@gmail.com" className='md:order-1 order-2 w-1/2 md:w-auto'>
                 <Button text="Contact Me" />
             </a>

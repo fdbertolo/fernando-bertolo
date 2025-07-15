@@ -1,27 +1,26 @@
-import { Markdown } from 'components/markdown';
-import ChromaGrid from 'components/chroma-grid';
 import { workItems } from './work-list';
 import { Footer } from 'components/footer';
+import WorksList from 'components/works-list';
+import { Markdown } from 'components/markdown';
 
 export const metadata = {
-    title: 'My works'
+    title: 'My works',
+    description:
+        'A showcase of my design and development projects, highlighting my skills in creating functional and visually appealing products.',
+    keywords: 'design, development, portfolio, projects, UI/UX, React, Angular, Design Systems',
+    authors: ['Fernando Bertolo']
 };
 
 const explainer = `
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+My works spans <b>UI/UX design and Frontend development</b>, alongside <b>graphic design, illustration, and branding</b>. From digital interfaces to apparel design, I craft compelling visuals and experiences that captivate and connect.`;
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-`;
-
-export default async function Page() {
+export default function Page() {
     return (
         <>
-            <h1 className="mb-8">My works</h1>
-            <Markdown content={explainer} className="mb-12" />
-            <div className="flex justify-center">
-                <ChromaGrid items={workItems} radius={300} damping={0.45} fadeOut={0.6} ease="power3.out" />
-            </div>
+            <WorksList items={workItems}>
+                <h1 className="mb-8">My works</h1>
+                <Markdown content={explainer} className="mb-12" />
+            </WorksList>
             <Footer />
         </>
     );

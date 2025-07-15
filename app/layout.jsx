@@ -2,10 +2,10 @@ import { Header } from '/components/header';
 import '/styles/globals.css';
 import { AOSInitializer } from '/components/aos-initializer';
 export const metadata = {
-    title: {
-        template: '%s | Netlify',
-        default: 'Fernando Bertolo - Product Designer'
-    }
+    title: 'Fernando Bertolo - Product Designer',
+    description: 'Portfolio of Fernando Bertolo, a Product Designer specializing in UI design and Design Systems.',
+    keywords: 'design, development, portfolio, projects, UI/UX, React, Angular, Design Systems',
+    authors: ['Fernando Bertolo'],
 };
 
 export default function RootLayout({ children }) {

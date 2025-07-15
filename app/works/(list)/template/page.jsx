@@ -2,22 +2,26 @@ import { Markdown } from 'components/markdown';
 import { Footer } from 'components/footer';
 
 export const metadata = {
-    title: 'Work title'
+    title: 'Under construction',
 };
 
 const explainer = `
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-`;
+I'm working on this! Will be ready soon 🚀`;
 
 export default async function Page() {
     return (
         <>
-            <h1 className="mb-8">Works title</h1>
+            <h1 className="mb-8">Under construction</h1>
             <Markdown content={explainer} className="mb-12" />
             <div className="flex justify-center">
+                <picture className="flex">
+                    <img
+                        src="/images/under-construction.png"
+                        alt="Image of a designer working on new screens"
+                        width={390}
+                        height={390}
+                    />
+                </picture>
             </div>
             <Footer />
         </>
