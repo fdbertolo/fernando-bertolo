@@ -142,7 +142,7 @@ const AnimatedCursor = ({ cursorImage, containerRef }) => {
         ref={cursorRef}
         src={cursorImage}
         alt="Animated Cursor"
-        className='w-[50px] h-[50px] md:w-[100px] md:h-[100px] pointer-events-none'
+        className='w-[50px] h-[50px] md:w-[100px] md:h-[100px] pointer-events-none object-cover'
         style={{
           position: 'absolute', // Posicionamiento absoluto relativo al padre.
           pointerEvents: 'none', // No interfiere con los eventos del mouse.
