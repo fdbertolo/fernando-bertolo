@@ -49,8 +49,8 @@ export function HeroSection() {
             <h1 data-aos="fade-up" data-aos-duration="500" className="z-2 select-none mb-4 text-[18vw] md:text-[14vw] xl:text-[10vw] 2xl:text-[9rem] text-center leading-[0.85] text-shadow-sm text-shadow-zinc-600 hover:text-shadow-lg transition-all ease-in-out hover:transition-all hover:ease-in-out">
                 Product <br /> Designer
             </h1>
-            <h2 data-aos="fade-up" data-aos-duration="500" className="z-4 select-none mt-8 text-[4vw] md:text-[3vw] xl:text-[2vw] text-center leading-[1.4] 2xl:text-[2rem]">
-                +10 years solving problems <br /> with design and code
+            <h2 data-aos="fade-up" data-aos-duration="500" className="z-4 select-none mt-8 text-[4vw] md:text-[3vw] xl:text-[2vw] text-center leading-[1.4] 2xl:text-[2rem] font-[400]">
+                +10 years solving problems <br /> with <b>design</b> and <b>code</b>
             </h2>
             <picture className="flex">
                 <AnimatedCursor cursorImage="/images/polygon.png" containerRef={sectionRef} />
