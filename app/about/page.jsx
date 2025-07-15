@@ -14,11 +14,13 @@ const explainer2 = `When I'm not immersed in **design and code**, you'll likely 
 export default async function Page() {
     return (
         <>
-            <h1 className="mb-8">About me</h1>
+            <h1 data-aos="fade-up" data-aos-duration="500" className="mb-8">
+                About me
+            </h1>
 
             <div className="flex gap-4 flex-col md:flex-row">
                 <div className="flex w-full">
-                    <div className="flex flex-col gap-2">
+                    <div data-aos="fade-up" data-aos-duration="500" className="flex flex-col gap-2">
                         <h3>When I&apos;m working</h3>
                         <Markdown content={explainer} className="mb-4" />
                         <a href="/fernando-bertolo-resume.pdf" download="fernando-bertolo-resume.pdf" className="mb-16">
