@@ -87,7 +87,7 @@ export const workItems = [
         handle: ['Motion Graphics', 'Illustration', 'Graphic Design'],
         borderColor: '#10B981', // Verde
         gradient: 'linear-gradient(180deg, #10B981, #000)',
-        url: '/works/template'
+        url: '/works/motion-and-sound'
     },
     {
         image: '/images/covers/cover-8.png',
@@ -107,7 +107,7 @@ export const workItems = [
         handle: ['Illustration', 'Graphic Design', 'Apparel Design', 'Art'],
         borderColor: '#F59E0B', // Amarillo
         gradient: 'linear-gradient(180deg, #F59E0B, #000)',
-        url: '/works/template'
+        url: '/works/apparel-collection-2'
     },
     {
         image: '/images/covers/cover-14.png',
@@ -117,7 +117,7 @@ export const workItems = [
         handle: ['Illustration', 'Graphic Design', 'Apparel Design', 'Art'],
         borderColor: '#4F46E5', // Índigo
         gradient: 'linear-gradient(180deg, #4F46E5, #000)',
-        url: '/works/template'
+        url: '/works/apparel-collection-3'
     },
     {
         image: '/images/covers/cover-9.jpg',
@@ -137,7 +137,7 @@ export const workItems = [
         handle: ['Illustration', 'Graphic Design', 'Apparel Design', 'Art'],
         borderColor: '#9646e5', // Púrpura
         gradient: 'linear-gradient(180deg, #9646e5, #000)',
-        url: '/works/template'
+        url: '/works/apparel-collection-4'
     },
     {
         image: '/images/covers/cover-18.png',
@@ -157,7 +157,7 @@ export const workItems = [
         handle: ['Illustration', 'Graphic Design', 'Art'],
         borderColor: '#EF4444', // Rojo
         gradient: 'linear-gradient(180deg, #EF4444, #000)',
-        url: '/works/template'
+        url: '/works/illustration-1'
     },
     {
         image: '/images/covers/cover-17.jpg',
@@ -207,6 +207,6 @@ export const workItems = [
         handle: ['Graphic Design', 'Illustration', 'Apparel Design'],
         borderColor: '#10B981', // Verde
         gradient: 'linear-gradient(180deg, #10B981, #000)',
-        url: '/works/template'
+        url: '/works/apparel-collection-1'
     }
 ];
