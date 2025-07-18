@@ -25,8 +25,8 @@ export default async function Page() {
             <h1 className="mb-8">Digital Illustrations & Refinement</h1>
             <Markdown content={explainer} />
             <div className="flex justify-center w-full">
-                <div style={{ height: '800px', position: 'relative' }}>
-                    <CircularGallery items={galleryItems} bend={2} textColor="#ffffff" borderRadius={0.05} scrollEase={0.02} />
+                <div style={{ height: '800px', position: 'relative' }} className="md:h-[800px] h-[600px]">
+                    <CircularGallery items={galleryItems} bend={1} textColor="#ffffff" borderRadius={0.05} scrollEase={0.02} />
                 </div>
             </div>
             <Footer />
