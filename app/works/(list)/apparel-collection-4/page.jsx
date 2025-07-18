@@ -30,10 +30,10 @@ export default async function Page() {
             <h1 className="mb-8">Apparel Collection: Nature Themed</h1>
             <Markdown content={explainer} />
             <div className="flex justify-center w-full">
-                <div style={{ height: '800px', position: 'relative' }}>
+                <div style={{ height: '800px', position: 'relative' }} className="md:h-[800px] h-[600px]">
                     <CircularGallery
                         items={galleryItems}
-                        bend={2}
+                        bend={1}
                         textColor="#ffffff"
                         borderRadius={0.05}
                         scrollEase={0.02}
