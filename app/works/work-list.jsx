@@ -127,7 +127,7 @@ export const workItems = [
         handle: ['Branding', 'Graphic Design', 'Apparel Design', 'Art'],
         borderColor: '#3B82F6', // Azul
         gradient: 'linear-gradient(180deg, #3B82F6, #000)',
-        url: '/works/template'
+        url: '/works/illustration-2'
     },
     {
         image: '/images/covers/cover-7.jpg',
