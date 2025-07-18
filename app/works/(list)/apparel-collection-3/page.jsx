@@ -26,7 +26,7 @@ export default async function Page() {
             <h1 className="mb-8">Apparel Collection Design</h1>
             <Markdown content={explainer} />
             <div className="flex justify-center w-full">
-                <div className="md:h-[800px] h-[600px] relative">
+                <div className="md:h-[800px] h-[500px] relative">
                     <CircularGallery items={galleryItems} bend={1} textColor="#ffffff" borderRadius={0.05} scrollEase={0.02} />
                 </div>
             </div>
