@@ -50,7 +50,7 @@ export function WorksGrid() {
                         user interviews, usability testing, research, wireframing, prototyping, and a React/Next.js
                         implementation.
                     </p>
-                    <a href="/works/template">
+                    <a href="/works/case-study-1">
                         <Button text="Go to project" />
                     </a>
                 </div>

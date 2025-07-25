@@ -7,7 +7,7 @@ export const workItems = [
         handle: ['UI Design', 'UX Design', 'Design System', 'Frontend'],
         borderColor: '#3B82F6', // Azul
         gradient: 'linear-gradient(180deg, #3B82F6, #000)',
-        url: '/works/template'
+        url: '/works/case-study-1'
     },
     {
         image: '/images/covers/cover-23.png',
