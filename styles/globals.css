@@ -9,8 +9,8 @@
             color-mix(in oklab, var(--color-neutral-950) 100%, transparent)
         ),
         url('/images/noise.png');
-    --color-primary: #2bdcd2;
-    --color-primary-content: #171717;
+    --color-primary:#9646e5;
+    --color-primary-content: #d5abff;
     --color-secondary: #016968;
     --font-sans: 'Poppins', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
         'Noto Color Emoji';
@@ -170,4 +170,8 @@
 
 .floatAndGrow {
   animation: floatAndGrow 4s ease-in-out infinite alternate;
+}
+
+::selection {
+	background: var(--color-primary);
 }
