@@ -13,7 +13,7 @@ const getUniqueSkills = (items) => {
     return ['All', ...allSkills];
 };
 
-export default function WorksList({ items, children }) {
+export default function WorksList({ items, children, haveSkills = true }) {
     const [selectedSkill, setSelectedSkill] = useState('All');
     const uniqueSkills = getUniqueSkills(items);
 
@@ -23,7 +23,7 @@ export default function WorksList({ items, children }) {
     return (
         <>
             {children}
-
+            {haveSkills && (
             <div className="flex flex-wrap items-center gap-2 mb-8">
                 <span className="font-semibold text-zinc-300 mr-2">Skill:</span>
                 {uniqueSkills.map((skill) => (
@@ -40,6 +40,7 @@ export default function WorksList({ items, children }) {
                     </button>
                 ))}
             </div>
+            )}
 
             <div className="flex justify-center">
                 <ChromaGrid items={filteredItems} radius={500} damping={0.45} fadeOut={0.6} ease="power3.out" />
