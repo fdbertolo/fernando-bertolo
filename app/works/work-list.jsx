@@ -1,6 +1,6 @@
 export const workItems = [
     {
-        image: '/images/covers/cover-1.jpg',
+        image: '/images/covers/cover-1.png',
         title: 'UX/UI & Frontend Development',
         subtitle:
             'Designed and developed an internal desktop app. Process included user interviews, usability testing, research, wireframing, prototyping, and React/Next.js implementation with a design system.',
